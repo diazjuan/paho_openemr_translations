@@ -1,0 +1,15 @@
+{
+    "name": "PAIO Translations",
+    "version": "1.0.0",
+    "description": "Loads PAIO-curated Spanish translations into OpenEMR lang_constants / lang_definitions by executing the bundled SQL script from an admin-only Run button. No backups, drift detection, or audit log — the script is idempotent.",
+    "author": "PAIO Medical Systems",
+    "license": "GPL-3.0",
+    "type": "admin",
+    "acl": [
+        {
+            "section": "admin",
+            "value": "super",
+            "description": "PAIO Translations"
+        }
+    ]
+}
